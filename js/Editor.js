@@ -216,7 +216,7 @@ Editor.prototype = {
 	},
 
 	removeObject: function ( object ) {
-
+		
 		if ( object.parent === null ) return; // avoid deleting the camera or scene
 
 		var scope = this;

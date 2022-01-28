@@ -27,7 +27,7 @@ class RemoveObjectCommand extends Command {
 	}
 
 	execute() {
-
+		
 		this.editor.removeObject( this.object );
 		this.editor.deselect();
 

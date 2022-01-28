@@ -196,7 +196,7 @@ function Viewport( editor ) {
 		if ( onDownPosition.distanceTo( onUpPosition ) === 0 ) {
 
 			var intersects = getIntersects( onUpPosition, objects );
-
+			debugger
 			if ( intersects.length > 0 ) {
 
 				var object = intersects[ 0 ].object;
